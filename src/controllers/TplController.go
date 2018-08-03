@@ -10,6 +10,9 @@ type TplController struct {
 func(this *TplController) Index()  {
 	this.TplName = "index.html"
 }
+func(this *TplController) Demo()  {
+	this.TplName = "demo.html"
+}
 func(this *TplController) Demo1()  {
 	this.TplName = "demo1.html"
 }
